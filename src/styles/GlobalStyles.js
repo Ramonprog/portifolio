@@ -17,6 +17,7 @@ export default createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
 
   body{
@@ -40,6 +41,7 @@ export default createGlobalStyle`
     color: ${(props) => props.theme.colors.textColorPrimary};
     font-size: 2rem;
     margin-right: 5px;
+    margin-bottom: -3px;
   }
 
   .btn-gradient-primary {

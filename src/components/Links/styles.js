@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100vw;
   background-color: ${(props) => props.theme.colors.secondary};
-  justify-content: space-between;
   padding: 0 20px;
   height: 400px;
 

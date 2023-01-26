@@ -1,12 +1,13 @@
 import { Container } from "./styles";
 import Profile from "../../assets/profile-bgless.png";
 import { FiDownloadCloud } from "react-icons/fi";
-import { FiMail } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
+import Cv from "../../assets/cv.pdf";
 
 const ProfileUser = () => {
   return (
     <Container>
-      <div className="container-profile">
+      <div className="container-profile" id="profile">
         <div className="image">
           <img src={Profile} alt="Imagem de perfil de Alisson" />
         </div>
@@ -23,14 +24,23 @@ const ProfileUser = () => {
           </p>
 
           <div className="container-links">
-            <a href="#" target="_blank" className="btn btn-gradient-primary">
+            <a
+              href={Cv}
+              download
+              target="_blank"
+              className="btn btn-gradient-primary"
+            >
               <FiDownloadCloud />
               Currículo
             </a>
 
-            <a href="#" target="_blank" className="btn btn-gradient-secondary">
-              <FiMail />
-              E-mail
+            <a
+              href="https://wa.me/5587988296171"
+              target="_blank"
+              className="btn btn-gradient-secondary"
+            >
+              <FaWhatsapp />
+              Whatsapp
             </a>
           </div>
         </div>

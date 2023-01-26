@@ -9,6 +9,8 @@ import dark from "./themes/dark";
 import ProfileUser from "./components/ProfileUser";
 import Skills from "./components/Skills";
 import Academic from "./components/Academic";
+import MyProjects from "./components/MyProjects";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -42,6 +44,8 @@ function App() {
       <ProfileUser />
       <Academic />
       <Skills />
+      <MyProjects />
+      <Footer />
       <GlobalStyles />
     </ThemeProvider>
   );

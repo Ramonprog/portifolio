@@ -28,4 +28,15 @@ export const Container = styled.header`
       margin-left: 32px;
     }
   }
+
+  & .toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & svg {
+      margin: 0 8px;
+      font-size: 2rem;
+    }
+  }
 `;

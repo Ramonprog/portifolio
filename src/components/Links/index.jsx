@@ -8,7 +8,7 @@ import { FiGithub } from "react-icons/fi";
 const index = () => {
   return (
     <Container>
-      <div className="containerText">
+      <div className="containerText" id="home">
         <div className="left">
           <h2>Olá👋, eu sou</h2>
           <Typical
@@ -29,7 +29,7 @@ const index = () => {
             </a>
 
             <a
-              href="https://www.google.com.br/"
+              href="https://github.com/Ramonprog"
               target="_blank"
               className="btn btn-gradient-secondary"
             >

@@ -11,7 +11,7 @@ const Academic = () => {
 
   return (
     <Container>
-      <div className="container-academic">
+      <div className="container-academic" id="academic">
         <div className="title">
           <h1>Formação</h1>
         </div>
